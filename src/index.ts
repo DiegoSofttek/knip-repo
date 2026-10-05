@@ -1,24 +1,15 @@
-import axios from 'axios';
-import { usedFunction } from './helpers/activeUtils';
+import axios from 'axios'; 
 
-export interface UnusedUserType {
+export interface UnusedInterface { 
     id: number;
     name: string;
 }
 
-export const myForgottenConstant = "Hello World";
+export const unusedConstant = "Nadie importa esta constante"; 
 
-export async function main() {
-    console.log("App is running!");
-    
-    usedFunction();
-
-    try {
-        const response = await axios.get('https://jsonplaceholder.typicode.com/todos/1');
-        console.log(response.data);
-    } catch (error) {
-        console.error("Axios error", error);
-    }
+export function main() {
+    console.log("Ejecutando app de prueba...");
+    axios.get('https://jsonplaceholder.typicode.com/todos/1');
 }
 
 main();
