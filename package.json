@@ -1,7 +1,6 @@
 {
     "name": "knip-test-repo",
     "version": "1.0.0",
-    "description": "Repositorio con errores para probar Knip",
     "main": "src/index.ts",
     "scripts": {
         "start": "ts-node src/index.ts",
@@ -13,6 +12,7 @@
     },
     "devDependencies": {
         "typescript": "^5.0.0",
-        "ts-node": "^10.9.1"
+        "ts-node": "^10.9.1",
+        "knip": "^5.46.0"
     }
 }
