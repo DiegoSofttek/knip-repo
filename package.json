@@ -1,18 +1,17 @@
 {
-    "name": "knip-test-repo",
-    "version": "1.0.0",
-    "main": "src/index.ts",
-    "scripts": {
-        "start": "ts-node src/index.ts",
-        "build": "tsc"
-    },
-    "dependencies": {
-        "lodash": "^4.17.21",
-        "moment": "^2.29.4"
-    },
-    "devDependencies": {
-        "typescript": "^5.0.0",
-        "ts-node": "^10.9.1",
-        "knip": "^5.46.0"
-    }
+  "name": "knip-test-repo",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "axios": "^1.13.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.1",
+    "knip": "^5.46.0"
+  }
 }
